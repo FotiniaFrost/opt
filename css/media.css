@@ -1,0 +1,130 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.visible-sm-block{
+	display: block;
+}
+#second .line{
+	margin: -3rem auto 0;
+}
+.services-pic {
+display: none;
+}
+.services-text{
+	margin: 3rem auto;
+	width: 80%;
+	text-align: center;
+	font-size: 2rem;
+	&::before{
+		content:"-";
+		color:#fff;
+}
+#sixth p{
+  	width: 70%;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.burger{
+	display: block;
+}
+	.hidden-sm{
+		display: none;
+	}
+	.caption h1{
+  	 font-size: 2.5rem;
+	}
+	.caption h1 span{
+   	font-size: 4rem;
+	}
+	.slider-item{
+		padding: 5rem 7rem;
+	}
+	.owl-prev,
+  .owl-next{
+  	padding: 2rem;
+  }
+  #sixth p{
+  	width: 90%;
+  }
+  #footer .footer-logo, #footer span{
+	margin: 2rem auto;
+  text-align: center;
+ }
+ #footer .soc-buttons{
+ 	text-align: center;
+ 	padding: 0 0 3rem;
+ 	margin-left: -3rem;
+ }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.caption h1 span{
+   font-size: 3rem;
+}
+
+.contacts{
+	padding: 3rem 0;
+	text-align: center;
+}
+.questions{
+	padding: 3rem;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+.contacts h3,
+.contacts span, a{
+  	text-align: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+.aboutus-foto{
+text-align: center; 
+
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.contacts h3,
+.contacts span, a{
+  	text-align: left;
+  }
+}
+
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
